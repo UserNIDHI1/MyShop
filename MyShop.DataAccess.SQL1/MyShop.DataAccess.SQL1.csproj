@@ -52,12 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
-    <Compile Include="Migrations\202302211035498_Initial.cs" />
-    <Compile Include="Migrations\202302211035498_Initial.designer.cs">
-      <DependentUpon>202302211035498_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202302211237113_Initial.cs" />
+    <Compile Include="Migrations\202302211237113_Initial.designer.cs">
+      <DependentUpon>202302211237113_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -76,14 +77,10 @@
       <Project>{412dab8d-0158-4041-9b2d-30fcb629000e}</Project>
       <Name>MyShop.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyShop.WebUI\MyShop.WebUI.csproj">
-      <Project>{cea2e4b5-72f3-4efd-bd9d-46e4a42b6253}</Project>
-      <Name>MyShop.WebUI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202302211035498_Initial.resx">
-      <DependentUpon>202302211035498_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202302211237113_Initial.resx">
+      <DependentUpon>202302211237113_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

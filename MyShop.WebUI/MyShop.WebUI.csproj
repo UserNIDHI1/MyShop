@@ -230,6 +230,10 @@
       <Project>{62fb8306-5654-4472-8dab-1e8c5e2000e4}</Project>
       <Name>MyShop.DataAccess.InMemory</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyShop.DataAccess.SQL1\MyShop.DataAccess.SQL1.csproj">
+      <Project>{c727221b-0651-464e-a368-b8456165534d}</Project>
+      <Name>MyShop.DataAccess.SQL1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyShop.Services\MyShop.Services.csproj">
       <Project>{412dab8d-0158-4041-9b2d-30fcb629000e}</Project>
       <Name>MyShop.Services</Name>
