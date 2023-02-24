@@ -105,7 +105,7 @@ namespace MyShop.Services
             }
         }
 
-        public List<BasketItemViewModel> GetBasketItemViews(HttpContextBase httpContext)
+        public List<BasketItemViewModel> GetBasketItems(HttpContextBase httpContext)
         {
             Basket basket = GetBasket(httpContext, false);
 
@@ -146,7 +146,7 @@ namespace MyShop.Services
 
                 model.BasketCount = basketCount ?? 0;
                 model.BasketTotal = basketTotal ?? decimal.Zero;
-
+                
                 return model;
             }
             else
