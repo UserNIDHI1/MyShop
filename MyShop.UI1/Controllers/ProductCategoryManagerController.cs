@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace MyShop.UI1.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ProductCategoryManagerController : Controller
     {
 
